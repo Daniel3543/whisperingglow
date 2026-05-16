@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/whisperingglow/static/css/main.e59f4326.css",
-    "main.js": "/whisperingglow/static/js/main.1f906ba7.js",
+    "main.js": "/whisperingglow/static/js/main.7431f97e.js",
     "static/media/background.png": "/whisperingglow/static/media/background.687eda74d88a376a8699.png",
     "static/media/setsTwo.png": "/whisperingglow/static/media/setsTwo.4f5e3687b42a720381b9.png",
     "static/media/setsThree.png": "/whisperingglow/static/media/setsThree.bea8c395dfa144ce341a.png",
@@ -19,10 +19,10 @@
     "static/media/productsFiwe.png": "/whisperingglow/static/media/productsFiwe.f928da48ee843f31a131.png",
     "index.html": "/whisperingglow/index.html",
     "main.e59f4326.css.map": "/whisperingglow/static/css/main.e59f4326.css.map",
-    "main.1f906ba7.js.map": "/whisperingglow/static/js/main.1f906ba7.js.map"
+    "main.7431f97e.js.map": "/whisperingglow/static/js/main.7431f97e.js.map"
   },
   "entrypoints": [
     "static/css/main.e59f4326.css",
-    "static/js/main.1f906ba7.js"
+    "static/js/main.7431f97e.js"
   ]
 }
