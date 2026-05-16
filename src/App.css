@@ -1,0 +1,171 @@
+header {
+    min-height: 850px;
+    background: url("images/background.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 200px;
+}
+
+header>.box {
+    background: transparent;
+    width: 1350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+        background: transparent;
+        font-size: 21px;
+    }
+
+    li:nth-of-type(3) {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 55px;
+        text-transform: uppercase;
+    }
+}
+
+header>.info {
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+
+    h3 {
+        background: transparent;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 105px;
+        text-transform: uppercase;
+    }
+
+    h3:nth-of-type(2) {
+        transform: translateX(150%);
+    }
+}
+
+/* 2րդ; */
+.about {
+    padding: 75px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about>.box {
+    width: 1350px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 600px 100px 600px 100px;
+    gap: 35px;
+
+
+
+    .details:nth-of-type(4),
+    .details:nth-of-type(8) {
+        grid-column: 1 / 4;
+    }
+
+
+}
+
+.d1 {
+    background: url("images/about/aboutOne.png");
+    background-size: 100% 100%;
+}
+
+.d2_p1 {
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.d2_p2 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.d2_p3 {
+    font-size: 25px;
+    font-weight: 350;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.d3_img {
+    width: 100%;
+    height: 300px;
+    background: url("images/about/aboutTwo.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.d3_p1 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.d3_p2 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* line-height: 40px; */
+    margin-top: 20px;
+}
+
+.d4 {
+    display: flex;
+    align-items: center;
+}
+
+.d4 p {
+    font-size: 55px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.d5_img {
+    width: 100%;
+    height: 500px;
+    background: url(images/bestsellers/bestsellersOne.png) no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.lorem {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.d6_img {
+    width: 100%;
+    height: 500px;
+    background: url(images/bestsellers/bestsellersTwo.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 25px;
+}
+
+.d6 {
+    margin-top: 25px;
+}
+
+.d7_img {
+    width: 100%;
+    height: 500px;
+    background: url(images/bestsellers/bestsellersThree.png) no-repeat;
+    background-size: 100% 100%;
+
+}

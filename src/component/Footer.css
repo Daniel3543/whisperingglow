@@ -1,0 +1,73 @@
+.footer {
+  background: #fff7f7;
+  padding: 15px 0 11px;
+}
+
+.footer .box {
+  width: 1350px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.left h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.contact {
+  padding: 37px 0;
+}
+
+.contact p {
+  margin-bottom: 5px;
+}
+
+.contact span {
+  color: #777;
+  font-size: 15px;
+}
+
+.center {
+  display: flex;
+  gap: 120px;
+}
+
+.center p {
+  margin: 5px 0;
+  font-weight: 300;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social img {
+  width: 26px;
+}
+
+.bottom {
+  width: 1350px;
+  margin: 3px auto 0;
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+}
